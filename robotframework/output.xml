@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210225 12:12:46.884" rpa="false">
+<suite id="s1" name="Test" source="D:\soften\devOps\robotframework\test.robot">
+<test id="s1-t1" name="Go To homepage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20210225 12:12:47.341" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<status status="PASS" starttime="20210225 12:12:47.340" endtime="20210225 12:12:50.511"></status>
+</kw>
+<status status="PASS" starttime="20210225 12:12:47.340" endtime="20210225 12:12:50.512" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210225 12:12:46.886" endtime="20210225 12:12:50.513"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
