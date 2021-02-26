@@ -1,9 +1,14 @@
 *** Settings ***
 Library    SeleniumLibrary
+
 *** Variables ***
-${HOMEPAGE}    http://www.google.com
-${BROWSER}    chrome
+${BROWSER}    Chrome
+
+${URL}    https://google.com/
+
 *** Test Cases ***
-Go To homepage
-    Open Browser    ${HOMEPAGE}    ${BROWSER}
+Open Google Page
+    Open Browser    ${URL}    ${BROWSER}
+    Maximize Browser Window
+    Title Should Be    Google
   
